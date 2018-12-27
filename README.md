@@ -5,6 +5,7 @@ based on this paper https://arxiv.org/abs/1609.05337
 
 ## Usage
 In repl
+```clojure
 => (use 'micro_adapton.adapton)
 => (def r1 (adapton-ref 10))
 => (def r2 (adapton-ref 8))
@@ -15,4 +16,4 @@ In repl
 => (adapton-compute a)
 => (adapton-ref-set! r1 20)
 => (adapton-compute a)
-
+```
