@@ -1,4 +1,4 @@
-(ns micro_adapton.adapton)
+(ns micro-adapton.adapton)
 
 (defprotocol IAdapton
   (adapton-thunk [this])
